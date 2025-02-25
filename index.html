@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="style.css">
     <title>Pizza</title>
 </head>
@@ -41,11 +42,11 @@
                 <div class="menu-container">
                     <h1 class="menu-title">THE MENu</h1>
                     <div class="menu-tabs">
-                        <button class="menu-tab active tab-special">Pizza</button>
-                        <button class="menu-tab">Salads</button>
-                        <button class="menu-tab">Starter</button>
+                        <button class="menu-tab pizza active">Pizza</button>
+                        <button class="menu-tab salads">Salads</button>
+                        <button class="menu-tab starter">Starter</button>
                     </div>
-                    <div class="menu-content">
+                    <div class="menu-content option-pizza ">
                         <div class="menu-item">
                             <h1 class="menu-item-title">Margherita <span class="menu-item-price">$12.50</span></h1>
                             <p class="menu-item-desc">Fresh tomatoes, fresh mozzarella, fresh basil</p>
@@ -79,16 +80,151 @@
                             </p>
                         </div>
                     </div>
-                    <br>
+                    <div class="menu-content option-salads">
+                        <div class="menu-item">
+                            <h1 class="menu-item-title">Lasagna <span class="menu-item-price">$13.50</span></h1>
+                            <p class="menu-item-desc">Special sauce, mozzarella, parmesan, ground beef</p>
+                        </div>
+                        <div class="menu-item">
+                            <h1 class="menu-item-title">Ravioli <span class="menu-item-price">$$14.50</span></h1>
+                            <p class="menu-item-desc">Ravioli filled with cheese
+                            </p>
+                        </div>
+                        <div class="menu-item">
+                            <h1 class="menu-item-title">Spaghetti Classica <span class="menu-item-price">$11.00
+                                </span>
+                            </h1>
+                            <p class="menu-item-desc">Fresh tomatoes, onions, ground beef
+
+                            </p>
+                        </div>
+                        <div class="menu-item">
+                            <h1 class="menu-item-title">Seafood pasta <span class="menu-item-price">$25.50
+                                </span>
+                            </h1>
+                            <p class="menu-item-desc"> Salmon, shrimp, lobster, garlic
+
+
+                            </p>
+
+                        </div>
+
+                        <br>
+                    </div>
+                    <div class="menu-content option-starter">
+                        <div class="menu-item">
+                            <h1 class="menu-item-title">Today's Soup <span class="menu-item-price">$5.50
+                                </span></h1>
+                            <p class="menu-item-desc">Ask the waiter
+
+                            </p>
+                        </div>
+                        <div class="menu-item">
+                            <h1 class="menu-item-title">Bruschetta <span class="menu-item-price">$8.50</span></h1>
+                            <p class="menu-item-desc">Bread with pesto, tomatoes, onion, garlic
+                            </p>
+                        </div>
+                        <div class="menu-item">
+                            <h1 class="menu-item-title">Garlic bread <span class="menu-item-price">$9.50</span></h1>
+                            <p class="menu-item-desc">Grilled ciabatta, garlic butter, onions</p>
+                        </div>
+                        <div class="menu-item">
+                            <h1 class="menu-item-title">Tomozzarella <span class="menu-item-price">$10.50
+                                </span>
+                            </h1>
+                            <p class="menu-item-desc">Tomatoes and mozzarella
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
+                <!-- About -->
+                <div class="section-about">
+                    <div class="about-container">
+                        <h1 class="about-title">ABOUT</h1>
+                        <p class="about-des">The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum
+                            dolor
+                            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip
+                            ex ea commodo consequat.
+                        </p>
+                        <p class="about-chef">
+                            <strong>The Chef</strong> Mr. Italiano himself
+                            <img src="./images/chef.jpg" alt="chef" class="chef-image">
 
+                        </p>
 
+                        <p class="about-note">We are proud of our interiors.
+                        </p>
 
+                        <img src="./images/onepage_restaurant.jpg" alt="" class="about-image">
+                        <div class="about-hours">
+                            <h3 class="about-hours-title">Opening Hours</h3>
+                            <div class="about-hours-grid">
+                                <div class="about-hours-left">
+                                    <p>Mon & Tue CLOSED</p>
+                                    <p>Wednesday 10:00 - 24:00</p>
+                                    <p>Thursday 10:00 - 24:00</p>
+                                </div>
+                                <div class="about-hours-right">
+                                    <p>Friday 10:00 - 12:00</p>
+                                    <p>Saturday 10:00 - 23:00</p>
+                                    <p>Sunday CLOSED</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-location">
+                    <img src="./images/map.jpg" alt="map" class="map">
+                </div>
+                <div class="section-contact">
+                    <div class="contact-container">
+                        <h1 class="contact-title">Contact</h1>
+
+                        <p class="contact-info">
+                            Find us at some address at some place or call us at 05050515-122330
+                        </p>
+
+                        <p class="contact-alert">
+                            <span class="contact-alert-highlight">FYI!</span>
+                            We offer full-service catering for any event, large or small. We understand your needs and
+                            we
+                            will cater the food to satisfy the biggest criteria of them all, both look and taste.
+                        </p>
+
+                        <p class="reservation-title">
+                            <strong>RESERVE</strong> a table, ask for today's special or just send us a message:
+                        </p>
+
+                        <form class="reservation-form">
+                            <p>
+                                <input type="text" class="reservation-input" placeholder="Name">
+
+                            </p>
+                            <p>
+                                <input type="number" class="reservation-input" placeholder="How many people">
+
+                            </p>
+                            <div class="reservation-date">
+                                <input type="datetime-local" class="reservation-input">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <p>
+                                <input class="reservation-input" placeholder="Message \ Special Requirements"></input>
+
+                            </p>
+                            <button class="send-message">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
             </div>
+            <div id="footer">
+                <p>Powered by Nam coder</p>
+            </div>
+            <script src="main.js"></script>
         </div>
-        <div id="map-location"></div>
-        <div id="footer"></div>
-    </div>
 </body>
 
 </html>
